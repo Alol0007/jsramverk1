@@ -21,15 +21,6 @@
   color: #add8e6;
 }
 
-.App-link {
-  display: inline-block;
-  display: flex;
-  margin: 0;
-  justify-content: center;
-  font-size: calc(30px + 2vmin);
-  background-color: #282c34;
-}
-
 .Apptext {
     background-color: #282c34;
     display: flex;
@@ -63,4 +54,111 @@ a {
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Inter UI', sans-serif;
+}
+
+
+main {
+    padding: 2em 4em 8em;
+    margin: 0 auto;
+    margin-left: 180px;
+    min-height: 100vh;
+}
+
+main a {
+    font-weight: 600;
+}
+
+main p {
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0.75em 0;
+    font-weight: 800;
+    color: #111;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 1em 0;
+    font-weight: 800;
+    color: #add8e6;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 1em 0;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+li a:hover {
+    color: #555;
+}
+
+h2 {
+    /* text-transform: uppercase; */
+}
+
+code {
+    background: #eee;
+    padding: 2px 5px;
+    color: #9c5a06;
+}
+
+.center {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 2em;
+}
+
+.fa,
+.fas {
+    font-size: 1.1em;
+    padding-right: 1em;
+}
+
+.fab {
+    font-size: 1.7em;
+}
+
+.fab:hover {
+    color: #555;
+}
+
+.form-group {
+    padding: 0.5rem 0;
+}
+
+.form-group input[type='name'],
+.form-group input[type='password'],
+.form-group input[type='email'],
+.form-group input[type='date'] {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    width: 100%;
+    margin: 0.3rem 0;
 }
