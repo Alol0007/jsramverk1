@@ -1,0 +1,8 @@
+//   <FormGroup controlId="birthdate" bsSize="large">
+//     <ControlLabel>Confirm Birthdate</ControlLabel>
+//     <FormControl
+//       value={this.state.birthdate}
+//       onChange={this.handleChange}
+//       type="date"
+//     />
+// </FormGroup>
